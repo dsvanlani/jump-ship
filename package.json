@@ -1,0 +1,23 @@
+{
+  "name": "jump-ship",
+  "version": "1.0.0",
+  "description": "A CLI tool to help migrate liked songs from spotify to apple music, and vis versa.",
+  "main": "main.js",
+  "scripts": {
+    "main": "node src/index.ts",
+    "dev": "tsc-watch --onSuccess \"npm run main\"",
+    "test": "npm run test"
+  },
+  "keywords": [
+    "spotify",
+    "apple",
+    "music",
+    "migrate"
+  ],
+  "author": "David VanLaningham",
+  "license": "ISC",
+  "devDependencies": {
+    "tsc-watch": "^4.5.0",
+    "typescript": "^4.5.2"
+  }
+}
