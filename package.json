@@ -1,0 +1,23 @@
+{
+  "name": "jump-ship",
+  "version": "0.0.1",
+  "description": "Own your data and privacy",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsvanlani/jump-ship.git"
+  },
+  "author": "David VanLaningham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dsvanlani/jump-ship/issues"
+  },
+  "homepage": "https://github.com/dsvanlani/jump-ship#readme",
+  "devDependencies": {
+    "electron": "^34.0.2"
+  }
+}
