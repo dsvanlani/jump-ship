@@ -19,5 +19,6 @@
   "homepage": "https://github.com/dsvanlani/jump-ship#readme",
   "devDependencies": {
     "electron": "^34.0.2"
-  }
+  },
+  "type": "module"
 }
