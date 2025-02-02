@@ -5,7 +5,9 @@
   "main": "main.js",
   "scripts": {
     "test": "test",
-    "start": "electron ."
+    "start": "electron .",
+    "lint": "eslint . --ext .js",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,15 @@
   },
   "homepage": "https://github.com/dsvanlani/jump-ship#readme",
   "devDependencies": {
-    "electron": "^34.0.2"
+    "electron": "^34.0.2",
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "prettier": "^3.4.2"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "eslint-plugin-airbnb-base": "^0.0.1-security",
+    "eslint-plugin-import": "^2.31.0"
+  }
 }
