@@ -10,11 +10,11 @@ function createWindow() {
     width: 800,
     height: 600,
     webPreferences: {
-      preload: path.join(__dirname, "preload.js"),
+      preload: path.join(__dirname, "preload.ts"),
     },
   });
 
-  mainWindow.loadFile("index.html");
+  mainWindow.loadFile("app/index.html");
 }
 
 // Quit process when all windows are closed (except on macOS)
