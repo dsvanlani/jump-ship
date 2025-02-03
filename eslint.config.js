@@ -4,7 +4,11 @@ import tsParser from "@typescript-eslint/parser";
 
 export default [
   js.configs.recommended,
+  { ignores: ["dist/**/*", "node_modules/**"] },
   {
+    rules: {
+      "no-console": "warn",
+    },
     files: ["**/*.js", "**/*.mjs", "**/*.ts", "**/*.tsx"],
     languageOptions: {
       globals: {
